@@ -1,0 +1,177 @@
+body
+{
+	background: #efefef;
+	font-size: 20px;
+	color: #efefef77;
+	font-family: sans-serif;
+	font-weight: 578;
+}
+
+#outerbox
+{
+	position: relative;
+	margin: 3% auto;
+	height: 550px;
+	width: 400px;
+	background: #fff;
+	box-shadow:0 2px 4px rgba(0, 0, 0.3, 0.6);
+}
+
+.innerbox
+{
+	position: absolute;
+
+	left: 40px;
+	box-sizing: border-box;
+	width: 500px;
+	height: 700px;
+}
+
+h1
+{
+    height: 45px;
+	background: #10b9f2;
+	text-align: center;
+	color:#fff;
+	margin: 20px 0 20px 0;
+	font-weight: 300;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 2px;
+	width: 300px;
+	
+	line-height: 40px;	
+	
+}
+
+.headIcon
+{
+	position: relative;
+}
+.headIcon i{
+	position: absolute;
+	top: 8px;
+	padding: 5px 30px;
+	color: #fff;
+}
+
+.Email input[type="text"],
+.password input[type="password"]
+{
+	display: block;
+	box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 2px;
+	margin: 8px, 0;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	padding: 4px;
+	width: 300px;
+	height: 40px;
+	border: 2px solid #aaa;
+	
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+input[type="submit"]
+{
+	margin-bottom: 10px;
+	width: 300px;
+	height: 40px;
+	background: #0ca8dc;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background: #40c7f5;
+	transition:  0.2s ease;
+}
+
+
+
+button
+{
+	margin: 30px 0 20px 0;
+	margin-bottom: 20px;
+	top: 320px;
+	width: 300px;
+	height: 36px;
+	border: none;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.ask
+{
+	color:#043b4d;
+	text-decoration: none;
+	font-size: 14px;
+	opacity:0.8;
+}
+button.facebook
+{
+	background-color: #5d6a94;
+}
+
+
+button.facebook
+{
+	background-color: #5d6a94;
+	margin-bottom: -30px;
+}
+button.google
+{
+	background-color: #db4a39;
+	margin-bottom: 10px;
+}
+
+.Email input[type=text]:focus
+{
+	border-color:doggerBlue;
+	box-shadow:0 0 8px 0 doggerBlue;
+}
+.Email
+{
+	position: relative;
+}
+.Email i{
+	position: absolute;
+	top: 8px;
+	padding: 5px 260px;
+	color: #aaa;
+	transition: .3s;
+}
+.Email input[type=text]:focus + i
+{
+	color:dodgerBlue;
+}
+.password
+{
+	position: relative;
+}
+.password i{
+	position: absolute;
+	top: 8px;
+	padding: 5px 265px;
+	color: #aaa;
+}
+.password input[type=text]:focus + i
+{
+	color:dodgerBlue;
+}
